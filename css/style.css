@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+.clr {
+    clear: both;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/*============= nevbar part goes here =============*/
+.logo {
+    width: 270px;
+    float: left;
+
+}
+
+.logo img {
+    padding-top: 15px;
+}
+
+.menu {
+    width: 900px;
+    float: left;
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 20px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #444;
+    transition: all linear .3s;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.menu ul li a:hover {
+    color: #f00;
+}
+
+/* =======================Banner Part ====================== */
+
+.banner-img{
+    width: 100%;
+}
+/*============= about part goes here =============*/
+
+/* .about-section{
+   width: 100%;
+} */
+
+#About{
+    display: flex;
+}
+
+.about-img {
+    width: 395px;
+    float: left;
+    margin-right: 50px;
+    border: solid #747474;
+    padding: 70px;
+    margin-bottom: 30px;
+}
+.about-text {
+    width: 670px;
+    margin-left: -40px;
+    float: left;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    color: rgb(110, 109, 109);
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 700; 
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-button{
+    background-color: rgb(233, 82, 12);
+    padding: 10px;
+    margin-top: 29px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: "Playwrite CU", system-ui;
+    font-weight: 700;
+}
+
+.about-button:hover{
+    background-color: rgb(0, 0, 0);
+    transition: .3s;
+}
+.about-text {
+    font-size: 18px;
+    color: red;
+    font-family: "Playwrite CU", system-ui;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about-text p{
+    /* padding-bottom: 20px; */
+    line-height: 30px;
+}
+
+/*============= courses part goes here =============*/
+/* .head h2 {
+    font-size: 32px;
+    color: #444;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+} */
+
+
+/*============= about part goes here =============*/
+/*============= about part goes here =============*/
+/*============= about part goes here =============*/
+/*============= about part goes here =============*/
+/*============= about part goes here =============*/
